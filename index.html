@@ -15,5 +15,50 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container container-header">
+        <div class="image-header">
+          <picture>
+            <source
+              sizes="1920w"
+              srcset="img/header.avif 1920w"
+              type="image/avif"
+            />
+            <source
+              sizes="1920w"
+              srcset="img/header.webp 1920w"
+              type="image/webp"
+            />
+
+            <source
+              sizes="1920w"
+              srcset="img/header.jpg 1920w"
+              type="image/jpg"
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="img/header.jpg"
+              lazyalt="imagen"
+              width="1000"
+              height="500"
+            />
+          </picture>
+        </div>
+        <!--.image-header-->
+        <div class="text-header">
+          <p class="tagline-product">Sonido Profesional</p>
+          <h1 class="name-product green-gradient">TechPRO</h1>
+          <p class="description-product">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            repellendus maxime commodi dignissimos nobis corporis delectus
+            possimus optio soluta odio accusantium, a omnis tempore ipsam neque
+            quae error, deserunt ipsa.
+          </p>
+          <p class="price-product">Desde <span>$299</span></p>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
