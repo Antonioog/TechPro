@@ -306,7 +306,7 @@ img {
   color: var(--white);
 }
 .models-z h3 {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 @media (min-width: 992px) {
   .models-z {
