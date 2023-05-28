@@ -397,9 +397,3 @@ img {
   color: var(--primary);
   padding: 2rem 0;
 }
-
-@media (max-width: 390px) {
-  .footer p {
-    margin-top: 15rem;
-  }
-}
