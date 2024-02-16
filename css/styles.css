@@ -319,7 +319,9 @@ img {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%, 70rem;
+  margin-bottom: 4rem;
 }
+
 @media (min-width: 768px) {
   .newsletter {
     background-image: linear-gradient(
@@ -366,13 +368,5 @@ img {
   font-size: 2rem;
   font-weight: 900;
   border: none;
-}
-
-.footer p {
-  text-align: center;
-  font-family: var(--fuenteSecundaria);
-  text-transform: uppercase;
-  font-size: 2rem;
-  color: var(--primario);
-  padding: 2rem 0;
+  margin-bottom: 1.5rem;
 }
